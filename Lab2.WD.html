@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <audio id="audio" width="400" height="300" src="mother.mp4" controls>
+            <p>The audio is not supported by your browser</p>
+        </audio>
+        </body>
+        <div style="text-align:center"></div>
+        <button id = "btnplayPause"
+         onclick="playPause()">Play</button>
+        <button onclick="makeBig() {
+            width=600; height=450;
+        }">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <button id = "btnMuteUnmute" onclick="mute() {
+            myvideo.muted=!myvideo.muted;
+            if (myvideo.muted)
+            btnMute.innerHTML = Unmute;
+        elsebtnMute.innerHTML = Mute;
+        }">Mute</button>
+        <br><br>
+        <div> 
+        <video id=" video 1"width="420">
+            <source src="mother.mp4" type="video/mp4">
+        </video>
+        </div>
+        <script>
+            var my video1=document.getElementByld("video1");
+            var btnPlay=document.getElementByld("btnPlayPause");
+            var btnMute=
+            document.getElementByld("btnMuteUnmute");
+        </script>
+    </body>
+</html>
